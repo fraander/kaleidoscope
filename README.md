@@ -35,3 +35,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Getting Started - Kaleidoscope Created Docs
 How routing works: [Link to Next.js Routing Docs](https://nextjs.org/docs/app/building-your-application/routing)
+
+### Custom Classes
+- `flex-h` creates a centered flex-row
+- `flex-v` creates a centered flex-col
+
+### Custom Colors
+- `khoury-...` has been defined for the major khoury colors as well as a light and secondary color.
