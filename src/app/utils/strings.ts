@@ -5,16 +5,19 @@ export const strings = {
       links: [
          {
             title: "Join a club",
-            destination: ""
+            destination: "/clubs"
          },
+         // {
+         //    title: "Find an event",
+         //    destination: ""
+         // },
          {
-            title: "Find an event",
-            destination: ""
-         },
-         {
-            title: "Manage my org",
-            destination: ""
+            title: "Manage an org",
+            destination: "/manage"
          },
       ]
+   },
+   manage: {
+      
    }
 }
