@@ -5,15 +5,15 @@ export const strings = {
       links: [
          {
             title: "Join a club",
-            destination: ""
+            destination: "/clubs/join"
          },
          {
             title: "Find an event",
-            destination: ""
+            destination: "/clubs/events"
          },
          {
             title: "Manage my org",
-            destination: ""
+            destination: "/clubs/manage"
          },
       ]
    }
