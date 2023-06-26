@@ -52,7 +52,7 @@ export default function Logomark({
   return (
     <div className="flex flex-row items-center justify-center">
       <img
-        src="kaleidoscope-640.png"
+        src="/kaleidoscope-640.png"
         alt="kaleidoscope logo"
         className={twMerge(
           "drop-shadow-md",
