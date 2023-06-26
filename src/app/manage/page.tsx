@@ -1,12 +1,18 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
+import ContentBlock from "../components/ContentBlock";
 
 export default function ManageOrg() {
   return (
     <Sidebar>
-      <div className="flex items-center justify-center w-screen h-screen bg-khoury-light dark:bg-khoury-dark">
-        Testing
-      </div>
+      <ContentBlock>
+        <h1>Manage your club</h1>
+        <p>
+          We've collected numerous resources, including our own programs, to help
+          you manage your club and make it as compelling as possible to students
+          at Northeastern.
+        </p>
+      </ContentBlock>
     </Sidebar>
   );
 }

@@ -29,16 +29,20 @@ const Sidebar = ({ children }: Props): ReactNode => {
         <div className="flex w-full md:justify-center justify-end px-4">
           {strings.manage.links.map((link, index) => (
             <div key={index}>
-              <PrimaryButton width="w-48">
-                <Link href={link.destination} target={link.target}>
-                  {link.title}
-                </Link>
+              <PrimaryButton
+                width="w-48"
+                href={link.destination}
+                target={link.target}
+              >
+                {link.title}
               </PrimaryButton>
             </div>
           ))}
         </div>
       </div>
-      {children}
+      <div className="w-full bg-khoury-light dark:bg-khoury-dark">
+        <div className="m-12 my-16 max-w-3xl">{children}</div>
+      </div>
     </div>
   );
 };

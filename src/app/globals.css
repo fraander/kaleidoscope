@@ -27,3 +27,15 @@
     @apply py-2;
   }
 }
+
+body {
+  @apply bg-khoury-light dark:bg-khoury-dark
+}
+
+h1 {
+  @apply text-2xl font-bold text-khoury-blue mb-1 dark:text-khoury-cyan;
+}
+
+p {
+  @apply text-base text-khoury-dark dark:text-khoury-light
+}
