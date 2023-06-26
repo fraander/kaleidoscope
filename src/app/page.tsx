@@ -5,6 +5,7 @@ import Logomark from "./components/Logomark";
 import PrimaryButton from "./components/PrimaryButton";
 import { twMerge } from "./utils/twMerge";
 import LogomarkElement from "./types/LogomarkElement";
+import ContentBlock from "./components/ContentBlock";
 
 export default function Home() {
   const header = (
@@ -47,17 +48,12 @@ export default function Home() {
       </div>
       <div className="bg-khoury-light dark:bg-khoury-dark flex flex-col items-center">
         <div className="max-w-3xl w-full my-16">
-          <h1 className="">
-            What's Kaleidoscope?
-          </h1>
-          <p className="">
-            Kaleidoscope is a club for other Khoury Clubs! We're a collection of
-            programs to help you build the best clubs you can for students at
-            Khoury. To do this, we provide a variety of ways to connect you with
-            students, additional resources, employers, and other clubs.
-          </p>
-
-          <h1></h1>
+          <ContentBlock>
+            <h1 className="">{strings.home.intro}</h1>
+            <p className="">
+              {strings.home.introParagraph}
+            </p>
+          </ContentBlock>
         </div>
       </div>
     </div>

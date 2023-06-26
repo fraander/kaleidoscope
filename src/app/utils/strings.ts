@@ -17,6 +17,9 @@ export const strings = {
         target: "_self",
       },
     ],
+    intro: "What's Kaleidoscope?",
+    introParagraph:
+      "Kaleidoscope is a club for other Khoury Clubs! We're a collection of programs to help you build the best clubs you can for students at Khoury. To do this, we provide a variety of ways to connect you with students, additional resources, employers, and other clubs.",
   },
   manage: {
     links: [
@@ -27,6 +30,8 @@ export const strings = {
         target: "_blank",
       },
     ],
+    headline: "Manage your club",
+    introContent: "We've collected numerous resources, including our own programs, to help you manage your club and make it as compelling as possible to students at Northeastern."
   },
 };
 
